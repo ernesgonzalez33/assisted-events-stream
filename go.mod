@@ -12,7 +12,7 @@ require (
 	github.com/onsi/gomega v1.26.0
 	github.com/opensearch-project/opensearch-go v1.1.0
 	github.com/segmentio/kafka-go v0.4.38
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.3
 	github.com/tidwall/gjson v1.14.4
 	github.com/tidwall/sjson v1.2.5
 )

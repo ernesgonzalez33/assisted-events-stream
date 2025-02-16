@@ -133,7 +133,7 @@ github.com/segmentio/kafka-go/protocol/txnoffsetcommit
 github.com/segmentio/kafka-go/sasl
 github.com/segmentio/kafka-go/sasl/plain
 github.com/segmentio/kafka-go/sasl/scram
-# github.com/sirupsen/logrus v1.9.0
+# github.com/sirupsen/logrus v1.9.3
 ## explicit; go 1.13
 github.com/sirupsen/logrus
 # github.com/tidwall/gjson v1.14.4
