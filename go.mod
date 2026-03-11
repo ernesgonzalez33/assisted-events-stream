@@ -12,7 +12,7 @@ require (
 	github.com/onsi/gomega v1.26.0
 	github.com/opensearch-project/opensearch-go v1.1.0
 	github.com/segmentio/kafka-go v0.4.38
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.4
 	github.com/tidwall/gjson v1.14.4
 	github.com/tidwall/sjson v1.2.5
 )
@@ -30,7 +30,7 @@ require (
 	github.com/xdg/stringprep v1.0.3 // indirect
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
 	golang.org/x/net v0.5.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.6.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
