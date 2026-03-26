@@ -1,5 +1,4 @@
 //go:build amd64 && !appengine && !noasm && gc
-// +build amd64,!appengine,!noasm,gc
 
 package zstd
 
@@ -21,7 +20,8 @@ type buildDtableAsmContext struct {
 
 // buildDtable_asm is an x86 assembly implementation of fseDecoder.buildDtable.
 // Function returns non-zero exit code on error.
-// go:noescape
+//
+//go:noescape
 func buildDtable_asm(s *fseDecoder, ctx *buildDtableAsmContext) int
 
 // please keep in sync with _generate/gen_fse.go
